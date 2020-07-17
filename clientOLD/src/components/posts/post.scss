@@ -1,0 +1,151 @@
+@import '../../sass/styles';
+
+// ############ List Post #####################
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 400px));
+  grid-gap: 1em;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+.deckStyle {
+  @include box-shadow($cardShadowInitial);
+}
+
+.deckStyle:hover {
+  @include transition(0.4s);
+  @include box-shadow($cardShadowHover);
+}
+
+// ######### Post Page Showing all Posts############
+
+.postCover {
+  background: $themeColor;
+  color: $light;
+}
+
+.postFormFont {
+  font-size: 1.2rem;
+}
+
+// ############# ViewPost ##############
+
+.viewPost {
+  overflow-wrap: break-word;
+  border-style: ridge;
+}
+
+.postTitle {
+  color: $primaryColor;
+}
+
+.productSlogan {
+  padding: 0.7rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.countdownWarning {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.countdownTimer {
+  font-size: 3.2rem;
+  font-family: monospace;
+  padding: 0.8rem;
+  border: outset;
+}
+
+.affiliateButton {
+  padding: 1rem;
+  font-weight: bolder;
+}
+
+.productAboutQuestion {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.finalScarcityWarning {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.longDescription {
+  font-family: Helvetica;
+  font-size: 1.3rem;
+  margin: 4rem;
+}
+
+.bonusLabel {
+  margin-top: 1rem;
+}
+
+.bonusValue {
+  margin-top: 0.5rem;
+  text-align: left;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.breakerText {
+  font-size: 2rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+
+.signoff {
+  font-size: 1.5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 2rem;
+}
+
+.whiteText {
+  color: $baseColor;
+}
+
+.footerStyle {
+  color: $subtitleColor;
+}
+
+/* Container holding the image and the text */
+.bonusBoxContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 2rem;
+}
+
+/* Centered text */
+.bonusBoxText {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bonusBoxLogo {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bonusImage {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// #################################
