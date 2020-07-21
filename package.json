@@ -39,7 +39,6 @@
     "react-player": "^2.2.0",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.1",
     "react-share": "^4.2.0",
     "react-summernote": "^2.0.0",
     "react-tinymce": "^0.7.0",
@@ -50,6 +49,7 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.1",
+    "react-scripts": "^3.4.1",
     "react-social-icons": "^4.1.0"
   }
 }
