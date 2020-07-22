@@ -83,27 +83,20 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
 
       {/* PRODUCT LOGO */}
 
-      <Row
-        style={{ backgroundColor: post.bgColor }}
-        className='justify-content-md-center'
-      >
-        <Col xs lg='2'></Col>
-        <Col className='md="auto bonusPadding'>
-          <div>
-            <img
-              src={post.productLogo}
-              alt='Product Logo'
-              style={{ width: '85%', height: '85%' }}
-            />
-          </div>
+      <Row style={{ backgroundColor: post.bgColor }} className='text-center'>
+        <Col>
+          <Image
+            src={post.productLogo}
+            alt='Product Logo'
+            style={{ width: '75%', height: '75%' }}
+          />
         </Col>
-        <Col xs lg='2'></Col>
       </Row>
 
       {/* PRODUCT SLOGAN */}
 
       <Row
-        className='productSlogan text-center whiteText'
+        className='productSlogan text-center whiteText bonusPadding'
         style={{ backgroundColor: post.bgColor }}
       >
         <Col>{ReactHtmlParser(post.slogan)}</Col>
@@ -165,16 +158,19 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
       </Row>
 
       {/* PRODUCT IMAGE */}
-
-      <Row>
-        <Col className='text-center bonusPadding col-xs-auto'>
-          <img
-            src={post.productImage}
-            alt=''
-            style={{ width: '25rem', height: '18.75' }}
-          />
-        </Col>
-      </Row>
+      <div>
+        <Row>
+          <Col xs lg='2'></Col>
+          <Col md='auto' className='text-center bonusPadding'>
+            <img
+              src={post.productImage}
+              alt=''
+              style={{ width: '25rem', height: '18.75' }}
+            />
+          </Col>
+          <Col xs lg='2'></Col>
+        </Row>
+      </div>
 
       {/* LONG DESCRIPTION */}
       <div className='longDescription'>
