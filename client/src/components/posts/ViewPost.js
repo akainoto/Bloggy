@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import getFormattedDate from '../../utils/getFormattedDate';
 
 import bonusHeader from '../../img/bonusHeader.png';
-import bonusBox from '../../img/bonusBox.png';
 import instructions from '../../img/instructions.png';
 
 import bonusOne from '../../img/bonusOne.png';
