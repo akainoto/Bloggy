@@ -83,8 +83,12 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
 
       {/* PRODUCT LOGO */}
 
-      <Row style={{ backgroundColor: post.bgColor }}>
-        <Col className='d-flex text-center bonusPadding'>
+      <Row
+        style={{ backgroundColor: post.bgColor }}
+        className='justify-content-md-center'
+      >
+        <Col xs lg='2'></Col>
+        <Col className='md="auto bonusPadding'>
           <div>
             <img
               src={post.productLogo}
@@ -93,6 +97,7 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
             />
           </div>
         </Col>
+        <Col xs lg='2'></Col>
       </Row>
 
       {/* PRODUCT SLOGAN */}
