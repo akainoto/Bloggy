@@ -171,7 +171,7 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
           <img
             src={post.productImage}
             alt=''
-            style={{ width: '400px', height: '300px' }}
+            style={{ width: '25rem', height: '18.75' }}
           />
         </Col>
       </Row>
@@ -219,7 +219,7 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
           <div className='bonusValue'>PREMIUM TIER</div>
         </Col>
 
-        <Col className='col-md-auto bonusPadding col-xs-auto'>
+        <Col className='col-md-auto bonusPadding'>
           <div className='bonusBoxContainer'>
             <Image
               src={post.bonusOneImage}
