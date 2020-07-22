@@ -124,25 +124,10 @@ a:link {
 
 /* Container holding the image and the text */
 .bonusBoxContainer {
-  position: relative;
+  // position: relative;
   text-align: center;
   color: white;
   margin: 2rem;
-}
-
-/* Centered text */
-.bonusBoxText {
-  position: absolute;
-  top: 17%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.bonusBoxLogo {
-  position: absolute;
-  top: 26%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .bonusImage {

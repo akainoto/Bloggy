@@ -221,6 +221,7 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
             />
           </div>
         </Col>
+        <Col xs lg='2'></Col>
       </Row>
 
       {/* AFFILIATE BUTTON 3 */}
