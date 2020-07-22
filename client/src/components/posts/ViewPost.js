@@ -160,7 +160,7 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
       {/* PRODUCT IMAGE */}
 
       <Row>
-        <Col className='text-center'>
+        <Col className='text-center imageNotOver col-xs-auto'>
           <img
             src={post.productImage}
             alt=''
@@ -212,7 +212,7 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
           <div className='bonusValue'>PREMIUM TIER</div>
         </Col>
 
-        <Col md='auto'>
+        <Col className='col-md-auto imageNotOver col-xs-auto'>
           <div className='bonusBoxContainer'>
             <Image
               src={post.bonusOneImage}
