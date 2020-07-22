@@ -8,9 +8,9 @@ import './Landing.css';
 const Landing = () => (
   <Container
     style={{ height: '75vh' }}
-    className='d-flex flex-column justify-content-center align-items-center'
+    className='d-flex flex-column col-6 justify-content-center align-items-center'
   >
-    <Row className='mb-4'>
+    <Row className='mb-4 '>
       <p className='text-secondary h1'> Welcome to Bonus Dynamo</p>
     </Row>
     <Row className='mb-4'>

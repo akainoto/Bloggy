@@ -216,33 +216,12 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
         <Col md='auto'>
           <div className='bonusBoxContainer'>
             <Image
-              src={bonusBox}
+              src={post.bonusOneImage}
               alt=''
               style={{ width: '30rem', height: '30rem' }}
             />
           </div>
-          <div>
-            <div className='bonusBoxText mb-5'>
-              <h1>BONUS ONE</h1>
-            </div>
-            <div className='bonusBoxLogo'>
-              <Image
-                src={post.productLogo}
-                alt='Product Logo'
-                style={{ width: '100%', height: '100%' }}
-              />
-            </div>
-            <div className='bonusImage'>
-              <Image
-                src={post.bonusOneImage}
-                alt='Product Image'
-                style={{ width: '75%', height: '75%' }}
-              />
-            </div>
-          </div>
         </Col>
-
-        <Col xs lg='2'></Col>
       </Row>
 
       {/* AFFILIATE BUTTON 3 */}
@@ -273,33 +252,12 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
         <Col md='auto'>
           <div className='bonusBoxContainer'>
             <Image
-              src={bonusBox}
+              src={post.bonusTwoImage}
               alt=''
               style={{ width: '30rem', height: '30rem' }}
             />
           </div>
-          <div>
-            <div className='bonusBoxText mb-5'>
-              <h1>BONUS TWO</h1>
-            </div>
-            <div className='bonusBoxLogo'>
-              <Image
-                src={post.productLogo}
-                alt='Product Logo'
-                style={{ width: '100%', height: '100%' }}
-              />
-            </div>
-            <div className='bonusImage'>
-              <Image
-                src={post.bonusTwoImage}
-                alt='Product Image'
-                style={{ width: '75%', height: '75%' }}
-              />
-            </div>
-          </div>
         </Col>
-
-        <Col xs lg='2'></Col>
       </Row>
 
       {/* AFFILIATE BUTTON 4 */}
@@ -330,33 +288,12 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
         <Col md='auto'>
           <div className='bonusBoxContainer'>
             <Image
-              src={bonusBox}
+              src={post.bonusThreeImage}
               alt=''
               style={{ width: '30rem', height: '30rem' }}
             />
           </div>
-          <div>
-            <div className='bonusBoxText mb-5'>
-              <h1>BONUS THREE</h1>
-            </div>
-            <div className='bonusBoxLogo'>
-              <Image
-                src={post.productLogo}
-                alt='Product Logo'
-                style={{ width: '100%', height: '100%' }}
-              />
-            </div>
-            <div className='bonusImage'>
-              <Image
-                src={post.bonusThreeImage}
-                alt='Product Image'
-                style={{ width: '75%', height: '75%' }}
-              />
-            </div>
-          </div>
         </Col>
-
-        <Col xs lg='2'></Col>
       </Row>
 
       {/* AFFILIATE BUTTON 5 */}
@@ -387,33 +324,12 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
         <Col md='auto'>
           <div className='bonusBoxContainer'>
             <Image
-              src={bonusBox}
+              src={post.bonusFourImage}
               alt=''
               style={{ width: '30rem', height: '30rem' }}
             />
           </div>
-          <div>
-            <div className='bonusBoxText mb-5'>
-              <h1>BONUS FOUR</h1>
-            </div>
-            <div className='bonusBoxLogo'>
-              <Image
-                src={post.productLogo}
-                alt='Product Logo'
-                style={{ width: '100%', height: '100%' }}
-              />
-            </div>
-            <div className='bonusImage'>
-              <Image
-                src={post.bonusFourImage}
-                alt='Product Image'
-                style={{ width: '75%', height: '75%' }}
-              />
-            </div>
-          </div>
         </Col>
-
-        <Col xs lg='2'></Col>
       </Row>
 
       {/* AFFILIATE BUTTON 6 */}
@@ -444,33 +360,12 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
         <Col md='auto'>
           <div className='bonusBoxContainer'>
             <Image
-              src={bonusBox}
+              src={post.bonusFiveImage}
               alt=''
               style={{ width: '30rem', height: '30rem' }}
             />
           </div>
-          <div>
-            <div className='bonusBoxText mb-5'>
-              <h1>BONUS FIVE</h1>
-            </div>
-            <div className='bonusBoxLogo'>
-              <Image
-                src={post.productLogo}
-                alt='Product Logo'
-                style={{ width: '100%', height: '100%' }}
-              />
-            </div>
-            <div className='bonusImage'>
-              <Image
-                src={post.bonusFiveImage}
-                alt='Product Image'
-                style={{ width: '75%', height: '75%' }}
-              />
-            </div>
-          </div>
         </Col>
-
-        <Col xs lg='2'></Col>
       </Row>
 
       {/* AFFILIATE BUTTON 7 */}
