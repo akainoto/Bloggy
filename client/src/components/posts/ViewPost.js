@@ -218,11 +218,12 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
             <img
               src={post.bonusOneImage}
               alt=''
-              style={{ width: '30rem', height: 'auto' }}
+              style={{ width: '40rem', height: 'auto' }}
               className='img-fluid img-responsive bonusPadding'
             />
           </div>
         </Col>
+        <Col xs lg='2'></Col>
       </Row>
 
       {/* AFFILIATE BUTTON 3 */}
@@ -282,7 +283,7 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
             <Image
               src={bonusThree}
               alt=''
-              style={{ width: '100%', height: '100%' }}
+              style={{ width: '10rem', height: 'auto' }}
             />
           </div>
           <div className='bonusValue'>PREMIUM TIER</div>
@@ -290,13 +291,15 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
 
         <Col md='auto'>
           <div className='bonusBoxContainer'>
-            <Image
+            <img
               src={post.bonusThreeImage}
               alt=''
-              style={{ width: '30rem', height: '30rem' }}
+              style={{ width: '40rem', height: 'auto' }}
+              className='img-fluid img-responsive bonusPadding'
             />
           </div>
         </Col>
+        <Col xs lg='2'></Col>
       </Row>
 
       {/* AFFILIATE BUTTON 5 */}
@@ -318,7 +321,7 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
             <Image
               src={bonusFour}
               alt=''
-              style={{ width: '100%', height: '100%' }}
+              style={{ width: '10rem', height: 'auto' }}
             />
           </div>
           <div className='bonusValue'>PREMIUM TIER</div>
@@ -326,13 +329,15 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
 
         <Col md='auto'>
           <div className='bonusBoxContainer'>
-            <Image
+            <img
               src={post.bonusFourImage}
               alt=''
-              style={{ width: '30rem', height: '30rem' }}
+              style={{ width: '40rem', height: 'auto' }}
+              className='img-fluid img-responsive bonusPadding'
             />
           </div>
         </Col>
+        <Col xs lg='2'></Col>
       </Row>
 
       {/* AFFILIATE BUTTON 6 */}
@@ -354,7 +359,7 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
             <Image
               src={bonusFive}
               alt=''
-              style={{ width: '100%', height: '100%' }}
+              style={{ width: '10rem', height: 'auto' }}
             />
           </div>
           <div className='bonusValue'>PREMIUM TIER</div>
@@ -362,13 +367,15 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
 
         <Col md='auto'>
           <div className='bonusBoxContainer'>
-            <Image
+            <img
               src={post.bonusFiveImage}
               alt=''
-              style={{ width: '30rem', height: '30rem' }}
+              style={{ width: '40rem', height: 'auto' }}
+              className='img-fluid img-responsive bonusPadding'
             />
           </div>
         </Col>
+        <Col xs lg='2'></Col>
       </Row>
 
       {/* AFFILIATE BUTTON 7 */}
