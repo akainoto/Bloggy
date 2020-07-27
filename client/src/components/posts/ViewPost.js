@@ -162,11 +162,13 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
         <Row>
           <Col xs lg='2'></Col>
           <Col md='auto' className='text-center bonusPadding'>
-            <img
-              src={post.productImage}
-              alt=''
-              style={{ width: '25rem', height: '18.75' }}
-            />
+            <div>
+              <img
+                src={post.productImage}
+                alt=''
+                style={{ width: '20rem', height: '20rem' }}
+              />
+            </div>
           </Col>
           <Col xs lg='2'></Col>
         </Row>
