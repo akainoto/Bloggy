@@ -69,7 +69,7 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
   }
 
   return (
-    <Container className='mt-4 viewPost'>
+    <Container className='mt-4 viewPost fluid'>
       <Row style={{ backgroundColor: post.bgColor }}>
         <Col>
           <img
@@ -161,7 +161,6 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
 
       <Row className='text-center'>
         <Col xs lg='2'></Col>
-
         <Col>
           <Image
             src={post.productImage}
@@ -203,26 +202,25 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
 
       {/* BONUS NUMBER ONE */}
 
-      <Row className='text-center justify-content-md-center'>
+      <Row className='text-center'>
         <Col xs lg='2'>
           <div className='bonusLabel'>
             <Image
               src={bonusOne}
               alt=''
-              style={{ width: '100%', height: '100%' }}
+              style={{ width: '10rem', height: '7rem' }}
             />
           </div>
           <div className='bonusValue'>PREMIUM TIER</div>
         </Col>
 
-        <Col className='bonusPadding'>
-          <div>
-            <Image
-              src={post.bonusOneImage}
-              alt=''
-              style={{ width: '80%', height: '80%' }}
-            />
-          </div>
+        <Col>
+          <Image
+            src={post.bonusOneImage}
+            alt=''
+            style={{ width: '30rem', height: '30rem' }}
+            className='bonusPadding'
+          />
         </Col>
         <Col xs lg='2'></Col>
       </Row>
