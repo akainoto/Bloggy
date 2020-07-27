@@ -201,56 +201,31 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
       </Row>
 
       {/* BONUS NUMBER ONE */}
+      <div>
+        <Row className='text-center'>
+          <Col xs lg='2'>
+            <div className='bonusLabel'>
+              <img
+                src={bonusOne}
+                alt=''
+                style={{ width: '10rem', height: 'auto' }}
+                class='img-responsive'
+              />
+            </div>
+            <div className='bonusValue'>PREMIUM TIER</div>
+          </Col>
 
-      <Row className='text-center'>
-        <Col xs lg='2'>
-          <div className='bonusLabel'>
+          <Col>
             <img
-              src={bonusOne}
+              src={post.bonusOneImage}
               alt=''
-              style={{ width: '100%', height: 'auto' }}
-              class='img-responsive'
+              style={{ width: '30rem', height: 'auto' }}
+              className='img-responsive bonusPadding'
             />
-          </div>
-          <div className='bonusValue'>PREMIUM TIER</div>
-        </Col>
-
-        <Col>
-          <img
-            src={post.bonusOneImage}
-            alt=''
-            style={{ width: '100%', height: 'auto' }}
-            className='img-responsive bonusPadding'
-          />
-        </Col>
-        <Col xs lg='2'></Col>
-      </Row>
-
-      {/* BONUS NUMBER ONE */}
-
-      <Row className='text-center'>
-        <Col xs lg='2'>
-          <div className='bonusLabel'>
-            <img
-              src={bonusOne}
-              alt=''
-              style={{ width: '10rem', height: 'auto' }}
-              class='img-responsive'
-            />
-          </div>
-          <div className='bonusValue'>PREMIUM TIER</div>
-        </Col>
-
-        <Col>
-          <img
-            src={post.bonusOneImage}
-            alt=''
-            style={{ width: '30rem', height: 'auto' }}
-            className='img-responsive bonusPadding'
-          />
-        </Col>
-        <Col xs lg='2'></Col>
-      </Row>
+          </Col>
+          <Col xs lg='2'></Col>
+        </Row>
+      </div>
 
       {/* AFFILIATE BUTTON 3 */}
       <div>
