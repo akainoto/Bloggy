@@ -158,21 +158,19 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
       </Row>
 
       {/* PRODUCT IMAGE */}
-      <div>
-        <Row>
-          <Col xs lg='2'></Col>
-          <Col md='auto' className='text-center bonusPadding'>
-            <div>
-              <img
-                src={post.productImage}
-                alt=''
-                style={{ width: '20rem', height: '20rem' }}
-              />
-            </div>
-          </Col>
-          <Col xs lg='2'></Col>
-        </Row>
-      </div>
+
+      <Row className='text-center'>
+        <Col xs lg='2'></Col>
+
+        <Col>
+          <Image
+            src={post.productImage}
+            alt='Product Image'
+            style={{ width: '20rem', height: '20rem' }}
+          />
+        </Col>
+        <Col xs lg='2'></Col>
+      </Row>
 
       {/* LONG DESCRIPTION */}
       <div className='longDescription'>
