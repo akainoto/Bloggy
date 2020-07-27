@@ -201,31 +201,28 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
       </Row>
 
       {/* BONUS NUMBER ONE */}
-      <div>
-        <Row className='text-center'>
-          <Col xs lg='2'>
-            <div className='bonusLabel'>
-              <img
-                src={bonusOne}
-                alt=''
-                style={{ width: '10rem', height: 'auto' }}
-                class='img-responsive'
-              />
-            </div>
-            <div className='bonusValue'>PREMIUM TIER</div>
-          </Col>
-
-          <Col xs>
+      <Row className='text-center justify-content-md-center'>
+        <Col xs lg='2'>
+          <div className='bonusLabel'>
             <img
-              src={post.bonusOneImage}
+              src={bonusOne}
               alt=''
-              style={{ width: '30rem', height: 'auto' }}
-              className='img-responsive bonusPadding'
+              style={{ width: '10rem', height: 'auto' }}
+              class='img-responsive'
             />
-          </Col>
-          <Col xs lg='2'></Col>
-        </Row>
-      </div>
+          </div>
+          <div className='bonusValue'>PREMIUM TIER</div>
+        </Col>
+
+        <Col>
+          <img
+            src={post.bonusOneImage}
+            alt=''
+            style={{ width: '70%', height: 'auto' }}
+            className='img-fluid img-responsive bonusPadding'
+          />
+        </Col>
+      </Row>
 
       {/* AFFILIATE BUTTON 3 */}
       <div>
@@ -246,7 +243,7 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
             <Image
               src={bonusTwo}
               alt=''
-              style={{ width: '100%', height: '100%' }}
+              style={{ width: '10rem', height: 'auto' }}
             />
           </div>
           <div className='bonusValue'>PREMIUM TIER</div>
@@ -254,10 +251,11 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
 
         <Col md='auto'>
           <div className='bonusBoxContainer'>
-            <Image
+            <img
               src={post.bonusTwoImage}
               alt=''
-              style={{ width: '30rem', height: '30rem' }}
+              style={{ width: '30rem', height: 'auto' }}
+              className='img-fluid img-responsive bonusPadding'
             />
           </div>
         </Col>
