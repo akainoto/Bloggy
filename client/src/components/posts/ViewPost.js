@@ -69,7 +69,7 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
   }
 
   return (
-    <Container className='mt-4 viewPost fluid'>
+    <Container className='mt-4 viewPost'>
       <Row style={{ backgroundColor: post.bgColor }}>
         <Col>
           <img
@@ -215,7 +215,7 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
             <div className='bonusValue'>PREMIUM TIER</div>
           </Col>
 
-          <Col>
+          <Col xs>
             <img
               src={post.bonusOneImage}
               alt=''
