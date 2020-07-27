@@ -205,21 +205,48 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
       <Row className='text-center'>
         <Col xs lg='2'>
           <div className='bonusLabel'>
-            <Image
+            <img
               src={bonusOne}
               alt=''
-              style={{ width: '10rem', height: '7rem' }}
+              style={{ width: '100%', height: 'auto' }}
+              class='img-responsive'
             />
           </div>
           <div className='bonusValue'>PREMIUM TIER</div>
         </Col>
 
         <Col>
-          <Image
+          <img
             src={post.bonusOneImage}
             alt=''
-            style={{ width: '30rem', height: '30rem' }}
-            className='bonusPadding'
+            style={{ width: '100%', height: 'auto' }}
+            className='img-responsive bonusPadding'
+          />
+        </Col>
+        <Col xs lg='2'></Col>
+      </Row>
+
+      {/* BONUS NUMBER ONE */}
+
+      <Row className='text-center'>
+        <Col xs lg='2'>
+          <div className='bonusLabel'>
+            <img
+              src={bonusOne}
+              alt=''
+              style={{ width: '10rem', height: 'auto' }}
+              class='img-responsive'
+            />
+          </div>
+          <div className='bonusValue'>PREMIUM TIER</div>
+        </Col>
+
+        <Col>
+          <img
+            src={post.bonusOneImage}
+            alt=''
+            style={{ width: '30rem', height: 'auto' }}
+            className='img-responsive bonusPadding'
           />
         </Col>
         <Col xs lg='2'></Col>
