@@ -216,11 +216,13 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
         </Col>
 
         <Col className='bonusPadding'>
-          <Image
-            src={post.bonusOneImage}
-            alt=''
-            style={{ width: '30rem', height: '30rem' }}
-          />
+          <div>
+            <Image
+              src={post.bonusOneImage}
+              alt=''
+              style={{ width: '80%', height: '80%' }}
+            />
+          </div>
         </Col>
         <Col xs lg='2'></Col>
       </Row>
