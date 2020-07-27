@@ -215,14 +215,12 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
           <div className='bonusValue'>PREMIUM TIER</div>
         </Col>
 
-        <Col className='col-md-auto bonusPadding'>
-          <div className='bonusBoxContainer'>
-            <Image
-              src={post.bonusOneImage}
-              alt=''
-              style={{ width: '30rem', height: '30rem' }}
-            />
-          </div>
+        <Col className='bonusPadding'>
+          <Image
+            src={post.bonusOneImage}
+            alt=''
+            style={{ width: '30rem', height: '30rem' }}
+          />
         </Col>
         <Col xs lg='2'></Col>
       </Row>
