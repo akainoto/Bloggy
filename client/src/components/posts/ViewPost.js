@@ -204,23 +204,24 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
       <Row className='text-center justify-content-md-center'>
         <Col xs lg='2'>
           <div className='bonusLabel'>
-            <img
+            <Image
               src={bonusOne}
               alt=''
               style={{ width: '10rem', height: 'auto' }}
-              class='img-responsive'
             />
           </div>
           <div className='bonusValue'>PREMIUM TIER</div>
         </Col>
 
-        <Col>
-          <img
-            src={post.bonusOneImage}
-            alt=''
-            style={{ width: '70%', height: 'auto' }}
-            className='img-fluid img-responsive bonusPadding'
-          />
+        <Col md='auto'>
+          <div className='bonusBoxContainer'>
+            <img
+              src={post.bonusOneImage}
+              alt=''
+              style={{ width: '30rem', height: 'auto' }}
+              className='img-fluid img-responsive bonusPadding'
+            />
+          </div>
         </Col>
       </Row>
 
@@ -254,11 +255,12 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
             <img
               src={post.bonusTwoImage}
               alt=''
-              style={{ width: '30rem', height: 'auto' }}
+              style={{ width: '40rem', height: 'auto' }}
               className='img-fluid img-responsive bonusPadding'
             />
           </div>
         </Col>
+        <Col xs lg='2'></Col>
       </Row>
 
       {/* AFFILIATE BUTTON 4 */}
