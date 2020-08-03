@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import MapModal from './Modal';
+import bdlogo from '../../static/bdlogo.png';
 
 const Navigationbar = ({ auth, onClick }) => (
   <Navbar
@@ -15,12 +16,12 @@ const Navigationbar = ({ auth, onClick }) => (
     <Link to='/product'>
       <Navbar.Brand>
         <img
-          src='https://imagizer.imageshack.com/img922/3646/fjpwth.png'
+          src={bdlogo}
           style={{ height: 35, width: 35 }}
           className='d-inline-block align-top'
           alt=''
         />
-        {' Bonus Dynamo'}
+        <strong>{' Bonus Dynamo'}</strong>
       </Navbar.Brand>
     </Link>
     <Navbar.Toggle aria-controls='basic-navbar-nav' />

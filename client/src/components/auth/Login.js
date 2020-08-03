@@ -69,6 +69,8 @@ const Login = ({ message, loading, user, onChange, onBlur, onSubmit }) => {
 
                 <Card.Text className='mt-2'>
                   Don't have an account? <Link to={'/signup'}>Sign up!</Link>
+                  <p></p>
+                  Technical Problems? support@bonusdynamo.com
                 </Card.Text>
               </Card.Body>
             </Form>
