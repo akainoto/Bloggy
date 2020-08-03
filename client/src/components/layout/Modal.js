@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Modal } from 'react-bootstrap';
+import { Nav, Button, Modal } from 'react-bootstrap';
 import mapImage from '../../img/mapImage.png';
 
 function MapModal() {
@@ -10,9 +10,7 @@ function MapModal() {
 
   return (
     <>
-      <Button bg='dark' variant='dark' onClick={handleShow}>
-        Map
-      </Button>
+      <Nav.Link onClick={handleShow}>Map</Nav.Link>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
