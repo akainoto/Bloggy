@@ -18,17 +18,18 @@ const TutorialPage = () => {
       {/* ** WORKING ** */}
       <Row className='container border'>
         <Col className='md=auto'>
-          <div>
+          <div className='m-2 embed-responsive embed-responsive-16by9'>
             <iframe
               title='tutorial1'
-              style={{ width: '30rem', height: '20rem' }}
               src='https://www.youtube.com/embed/ngaymSZPU8M'
-              className='img-responsive'
+              className='embed-responsive-item'
             ></iframe>
           </div>
         </Col>
-        <Col class='col-sm text-left'>
-          <h3>1. How To Set Up Pages</h3>
+        <Col clasName='col-sm text-left'>
+          <div className='m-2'>
+            <h3>1. How To Set Up Pages</h3>
+          </div>
         </Col>
       </Row>
 
