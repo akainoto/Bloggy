@@ -85,11 +85,14 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
 
       <Row style={{ backgroundColor: post.bgColor }} className='text-center'>
         <Col>
-          <Image
-            src={post.productLogo}
-            alt='Product Logo'
-            style={{ width: '75%', height: '75%' }}
-          />
+          <div>
+            <Image
+              src={post.productLogo}
+              alt='Product Logo'
+              style={{ width: '80%', height: '80%' }}
+              className='productLogo'
+            />
+          </div>
         </Col>
       </Row>
 
