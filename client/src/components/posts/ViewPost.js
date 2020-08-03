@@ -62,7 +62,13 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
     return (
       <div class='display-5'>
         <strong>
-          {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+          {timerComponents.length ? (
+            timerComponents
+          ) : (
+            <span>
+              <h2>Time's up! Contact Bonus Provider for availability.</h2>
+            </span>
+          )}
         </strong>
       </div>
     );
@@ -102,7 +108,11 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
         className='productSlogan text-center whiteText bonusPadding'
         style={{ backgroundColor: post.bgColor }}
       >
-        <Col>{ReactHtmlParser(post.slogan)}</Col>
+        <Col>
+          <div>
+            <h1>{ReactHtmlParser(post.slogan)}</h1>
+          </div>
+        </Col>
       </Row>
 
       {/* VIDEO */}
@@ -126,7 +136,9 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
         style={{ backgroundColor: post.bgColor }}
       >
         <Col>
-          <strong>IMPORTANT: </strong>These Bonuses Expire In...
+          <h2>
+            <strong>IMPORTANT: </strong>These Bonuses Expire In...
+          </h2>
         </Col>
       </Row>
 
@@ -199,7 +211,9 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
         style={{ backgroundColor: post.bgColor }}
       >
         <Col>
-          Get {post.title} Today & Get Access to These Exclusive Bonuses
+          <h2>
+            Get {post.title} Today & Get Access to These Exclusive Bonuses
+          </h2>
         </Col>
       </Row>
 
@@ -398,10 +412,14 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
         style={{ backgroundColor: post.bgColor }}
       >
         <Col>
-          <p>Don't Miss Out!</p>
-          <p>
+          <br />
+          <h1>
+            <strong>Don't Miss Out!</strong>
+          </h1>
+          <br />
+          <h1>
             Click The Button Below And Claim Your Exclusive FREE Bonus Package!
-          </p>
+          </h1>
         </Col>
       </Row>
 
@@ -411,7 +429,9 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
         style={{ backgroundColor: post.bgColor }}
       >
         <Col>
-          <strong>IMPORTANT: </strong>These Bonuses Expire In...
+          <h2>
+            <strong>IMPORTANT: </strong>These Bonuses Expire In...
+          </h2>
         </Col>
       </Row>
 
@@ -478,9 +498,18 @@ const ViewPost = ({ post, auth, onDelete, onEdit }) => {
         style={{ backgroundColor: post.bgColor }}
       >
         <Col>
-          <SocialIcon url='https://twitter.com/intent/tweet' />
-          <SocialIcon url='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse' />
-          <SocialIcon url='https://pinterest.com/pin/create/link/?url=<?php the_permalink();?>&amp;description=<?php the_title();?>' />
+          <SocialIcon
+            className='socialIcons'
+            url='https://twitter.com/intent/tweet'
+          />
+          <SocialIcon
+            className='socialIcons'
+            url='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse'
+          />
+          <SocialIcon
+            className='socialIcons'
+            url='https://pinterest.com/pin/create/link/?url=<?php the_permalink();?>&amp;description=<?php the_title();?>'
+          />
         </Col>
       </Row>
 

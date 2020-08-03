@@ -43,9 +43,12 @@ a:link {
   color: $primaryColor;
 }
 
+.productLogo {
+  margin: 0.5rem;
+}
+
 .productSlogan {
   padding: 0.7rem;
-  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -110,6 +113,10 @@ a:link {
 .signoff {
   font-size: 1.5rem;
   padding: 2rem;
+}
+
+.socialIcons {
+  margin: 0.5rem;
 }
 
 .whiteText {
