@@ -9,8 +9,8 @@ const TutorialPage = () => {
           <h1>Tutorials and FAQ</h1>
           <p>
             These tutorials have been made to ensure you get the most out of
-            BBonus Dynamo. For any futher requests please email
-            support@bonusbander.com
+            Bonus Dynamo. For any futher requests please email
+            support@bonusdynamo.com
           </p>
         </div>
       </Row>
@@ -35,12 +35,11 @@ const TutorialPage = () => {
 
       <Row className='container border'>
         <Col className='md=auto'>
-          <div>
+          <div className='m-2 embed-responsive embed-responsive-16by9'>
             <iframe
               title='tutorial2'
-              style={{ width: '30rem', height: '20rem' }}
               src='https://www.youtube.com/embed/HdjJghfRl38'
-              className='img-responsive'
+              className='embed-responsive-item'
             ></iframe>
           </div>
         </Col>
@@ -51,12 +50,11 @@ const TutorialPage = () => {
 
       <Row className='container border'>
         <Col className='md=auto'>
-          <div>
+          <div className='m-2 embed-responsive embed-responsive-16by9'>
             <iframe
               title='tutorial3'
-              style={{ width: '30rem', height: '20rem' }}
               src='https://www.youtube.com/embed/SDHhmYaKPDY'
-              className='img-responsive'
+              className='embed-responsive-item'
             ></iframe>
           </div>
         </Col>
@@ -67,12 +65,11 @@ const TutorialPage = () => {
 
       <Row className='container border'>
         <Col className='md=auto'>
-          <div>
+          <div className='m-2 embed-responsive embed-responsive-16by9'>
             <iframe
               title='tutorial4'
-              style={{ width: '30rem', height: '20rem' }}
               src='https://www.youtube.com/embed/PPhT7LwfYA8'
-              className='img-responsive'
+              className='embed-responsive-item'
             ></iframe>
           </div>
         </Col>
@@ -93,12 +90,11 @@ const TutorialPage = () => {
 
       <Row className='container border'>
         <Col className='md=auto'>
-          <div>
+          <div className='m-2 embed-responsive embed-responsive-16by9'>
             <iframe
               title='tutorial5'
-              style={{ width: '30rem', height: '20rem' }}
               src='https://www.youtube.com/embed/4XOMskgN8w4'
-              className='img-responsive'
+              className='embed-responsive-item'
             ></iframe>
           </div>
         </Col>
@@ -135,12 +131,11 @@ const TutorialPage = () => {
 
       <Row className='container border'>
         <Col className='md=auto'>
-          <div>
+          <div className='m-2 embed-responsive embed-responsive-16by9'>
             <iframe
               title='tutorial7'
-              style={{ width: '30rem', height: '20rem' }}
               src='https://www.youtube.com/embed/11qGLeCGZ9Q'
-              className='img-responsive'
+              className='embed-responsive-item'
             ></iframe>
           </div>
         </Col>
@@ -151,12 +146,11 @@ const TutorialPage = () => {
 
       <Row className='container border'>
         <Col className='md=auto'>
-          <div>
+          <div className='m-2 embed-responsive embed-responsive-16by9'>
             <iframe
               title='tutorial8'
-              style={{ width: '30rem', height: '20rem' }}
               src='https://www.youtube.com/embed/IYLAlzAx5yU'
-              className='img-responsive'
+              className='embed-responsive-item'
             ></iframe>
           </div>
         </Col>
@@ -167,12 +161,11 @@ const TutorialPage = () => {
 
       <Row className='container border'>
         <Col className='md=auto'>
-          <div>
+          <div className='m-2 embed-responsive embed-responsive-16by9'>
             <iframe
               title='tutorial9'
-              style={{ width: '30rem', height: '20rem' }}
               src='https://www.youtube.com/embed/rk8xhwTh35M'
-              className='img-responsive'
+              className='embed-responsive-item'
             ></iframe>
           </div>
         </Col>
