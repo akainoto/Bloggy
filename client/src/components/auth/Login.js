@@ -72,6 +72,9 @@ const Login = ({ message, loading, user, onChange, onBlur, onSubmit }) => {
                   <p></p>
                   Technical Problems? support@bonusdynamo.com
                 </Card.Text>
+                <small>
+                  Copyright (c) BonusDynamo.com - All Rights Reserved.
+                </small>
               </Card.Body>
             </Form>
           </Card>

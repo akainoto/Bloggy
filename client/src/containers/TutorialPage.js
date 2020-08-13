@@ -21,7 +21,7 @@ const TutorialPage = () => {
           <div className='m-2 embed-responsive embed-responsive-16by9'>
             <iframe
               title='tutorial1'
-              src='https://www.youtube.com/embed/ngaymSZPU8M'
+              src='https://www.youtube.com/embed/vUuvzx41sGc'
               className='embed-responsive-item'
             ></iframe>
           </div>
@@ -93,7 +93,7 @@ const TutorialPage = () => {
           <div className='m-2 embed-responsive embed-responsive-16by9'>
             <iframe
               title='tutorial5'
-              src='https://www.youtube.com/embed/4XOMskgN8w4'
+              src='https://www.youtube.com/embed/X8QIqSoYZWg'
               className='embed-responsive-item'
             ></iframe>
           </div>
@@ -102,13 +102,13 @@ const TutorialPage = () => {
           <h3>5. Making Your Strategy More Efficient</h3>
           <br />
           <a
-            href='https://jvz6.com/c/529993/349208'
+            href='https://jvz1.com/c/529993/356208'
             target='_blank'
             rel='noopener noreferrer'
             class='btn btn-success btn-lg btn-block'
             role='button'
           >
-            Get DFY Suite
+            Get SyndTrio
           </a>
           <br />
           <br />
