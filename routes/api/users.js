@@ -15,12 +15,10 @@ router.post('/membership-creation28683page_key=sr7923', (req, res) => {
   if (!isValid) {
     return res.status(400).json(errors);
   }
-  User.findOne({ $or: [{ email }, { user_name }] }).then((user) => {
+  User.findOne({ $or: [{ email }] }).then((user) => {
     if (user) {
       if (user.email === email)
         return res.status(400).json({ email: 'Email already exists' });
-      else
-        return res.status(400).json({ user_name: 'Username already exists' });
     } else {
       const newUser = new User({ user_name, email, password });
       // hashing password before storing it in database
