@@ -23,7 +23,10 @@ const Landing = () => (
         </div>
         <div>
           <p className='mb-4 text-secondary h3'>
-            Don't have an account? <Link to={'/signup'}>Sign Up!</Link>
+            Don't have an account?{' '}
+            <Link to={'https://platinumrelease.com/bonus-dynamo-live'}>
+              Sign Up!
+            </Link>
           </p>
           <p className='mb-4 text-secondary p'>
             Already have an account? <Link to={'/login'}>Login.</Link>

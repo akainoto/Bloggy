@@ -68,7 +68,10 @@ const Login = ({ message, loading, user, onChange, onBlur, onSubmit }) => {
                 {/* Need to Edit "Signup" Link to point to purchase screen */}
 
                 <Card.Text className='mt-2'>
-                  Don't have an account? <Link to={'/signup'}>Sign up!</Link>
+                  Don't have an account?{' '}
+                  <Link to={'https://platinumrelease.com/bonus-dynamo-live'}>
+                    Sign up!
+                  </Link>
                   <p></p>
                   Technical Problems? support@bonusdynamo.com
                 </Card.Text>
