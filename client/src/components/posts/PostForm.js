@@ -176,7 +176,7 @@ const PostForm = ({ post, onChange, onBlur, loading, onSubmit }) => {
             <br />
             Need BONUSES? -
             <a
-              href='https://e0d63jqrr7jmwg1gr9qoav6u9t.hop.clickbank.net/'
+              href='https://platinumrelease.com/get-bonuses'
               target='_blank'
               rel='noopener noreferrer'
             >
