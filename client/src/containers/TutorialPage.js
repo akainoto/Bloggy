@@ -77,7 +77,7 @@ const TutorialPage = () => {
           <h3>4. Finding and Selecting Bonuse</h3>
           <br />
           <a
-            href='https://e0d63jqrr7jmwg1gr9qoav6u9t.hop.clickbank.net/'
+            href='https://platinumrelease.com/get-bonuses'
             target='_blank'
             rel='noopener noreferrer'
             class='btn btn-success btn-lg btn-block'
@@ -102,7 +102,7 @@ const TutorialPage = () => {
           <h3>5. Making Your Strategy More Efficient</h3>
           <br />
           <a
-            href='https://jvz1.com/c/529993/356208'
+            href='https://platinumrelease.com/syndtrio'
             target='_blank'
             rel='noopener noreferrer'
             class='btn btn-success btn-lg btn-block'
@@ -114,7 +114,7 @@ const TutorialPage = () => {
           <br />
 
           <a
-            href='https://jvz8.com/c/529993/351319'
+            href='https://platinumrelease.com/maxdrive'
             target='_blank'
             rel='noopener noreferrer'
             class='btn btn-success btn-lg btn-block'
